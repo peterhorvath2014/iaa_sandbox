@@ -7,8 +7,8 @@
  * # MainCtrl
  * Controller of the workspaceApp
  */
-angular.module('workspaceApp')
-  .controller('MainCtrl', function ($scope) {
+angular.module('iaaApp')
+  .controller('searchCtrl', function ($scope) {
     $scope.rowCollection = [
         {firstName: 'Laurent', lastName: 'Renard', birthDate: new Date('1987-05-21'), balance: 102, email: 'whatever@gmail.com'},
         {firstName: 'Blandine', lastName: 'Faivre', birthDate: new Date('1987-04-25'), balance: -2323.22, email: 'oufblandou@gmail.com'},

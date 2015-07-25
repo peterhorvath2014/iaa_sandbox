@@ -1,0 +1,21 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Lelőhely</h3>
+    </div>
+    <div class="panel-body">
+        <table st-table="rowCollection" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>first name</th>
+                    <th>last name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="row in rowCollection">
+                    <td>{{row.firstName}}</td>
+                    <td>{{row.lastName}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
